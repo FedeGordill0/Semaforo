@@ -17,6 +17,8 @@ const cambiarEstado = () => {
       cambiarColor("yellow", true);
       cambiarColor("green", false);
       break;
+    default:
+      break;
   }
   estadoSemaforo++;
 
